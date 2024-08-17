@@ -3566,9 +3566,3 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
-.quick-add__submit span:first-child {
-  display: none;
-}
-.quick-add__submit span:first-child::before {
-  display: none;
-}
