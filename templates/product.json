@@ -76,6 +76,9 @@
         "description",
         "share"
       ],
+      "custom_css": [
+        ".jdgm-prev-badge {transform: scale(1.2);}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
