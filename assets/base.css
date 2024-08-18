@@ -3591,6 +3591,7 @@ details-disclosure > details {
 }
 @media only screen and (max-width: 768px) {
   .jdgm-all-reviews-rating-wrapper {
-  text-align: center;
+  text-align: center !important;
+  display: grid !important;
 }
 }
