@@ -213,7 +213,7 @@
       "scheme-5": {
         "settings": {
           "background": "#15aaff",
-          "background_gradient": "linear-gradient(88deg, rgba(21, 170, 255, 1) 12%, rgba(17, 30, 107, 1) 100%)",
+          "background_gradient": "linear-gradient(88deg, rgba(17, 30, 107, 1) 12%, rgba(17, 30, 107, 1) 100%)",
           "text": "#f9c41d",
           "button": "#ffffff",
           "button_label": "#e32402",
