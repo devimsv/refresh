@@ -287,6 +287,11 @@
               {% endif %}
             {%- endif -%}
           </div>
+                    <!-- Start of Judge.me code -->
+          <div class='jdgm-widget jdgm-preview-badge'>
+            {{ card_product.metafields.judgeme.badge }}
+          </div>
+        <!-- End of Judge.me code -->
         </div>
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
