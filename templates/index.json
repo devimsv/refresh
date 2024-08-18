@@ -17,15 +17,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_1cel_webp.webp",
             "heading": "",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "",
             "button_label": "VER COLECCIÓN",
             "link": "shopify:\/\/collections\/hogar-e-jardin",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 10,
+            "image_overlay_opacity": 20,
             "color_scheme": "scheme-3",
             "text_alignment_mobile": "left"
           }
