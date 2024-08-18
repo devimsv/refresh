@@ -124,11 +124,6 @@
               </a>
             </h3>
           </div>
-                          <!-- Start of Judge.me code -->
-          <div class='jdgm-widget jdgm-preview-badge'>
-            {{ card_product.metafields.judgeme.badge }}
-          </div>
-        <!-- End of Judge.me code -->
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
               <span
@@ -148,7 +143,6 @@
           </div>
         </div>
       </div>
-      
       <div class="card__content">
         <div class="card__information">
           <h3
@@ -293,6 +287,11 @@
               {% endif %}
             {%- endif -%}
           </div>
+                    <!-- Start of Judge.me code -->
+          <div class='jdgm-widget jdgm-preview-badge'>
+            {{ card_product.metafields.judgeme.badge }}
+          </div>
+        <!-- End of Judge.me code -->
         </div>
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
