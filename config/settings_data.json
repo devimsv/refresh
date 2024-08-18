@@ -201,11 +201,11 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#4770db",
+          "background": "#15aaff",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#4770db",
+          "button_label": "#15aaff",
           "secondary_button_label": "#ffffff",
           "shadow": "#0e1b4d"
         }
