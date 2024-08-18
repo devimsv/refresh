@@ -90,7 +90,7 @@
         "custom_liquid_Pw3D9V"
       ],
       "custom_css": [
-
+        ".price--large {padding-top: 20px;}"
       ],
       "settings": {
         "enable_sticky_info": true,
