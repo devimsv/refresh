@@ -21,7 +21,7 @@
             "subheading": "",
             "button_label": "VER COLECCIÓN",
             "link": "shopify:\/\/collections\/hogar-e-jardin",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
