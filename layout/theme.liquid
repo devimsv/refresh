@@ -112,6 +112,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       });
     </script>
     <!-- Fim Script ocultar botão flutuante -->
+       {%- if settings.addzap -%} {% include 'addzap' %} {%- endif -%}
+    <script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
     <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -471,6 +473,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
   </body>
-   {%- if settings.addzap -%} {% include 'addzap' %} {%- endif -%}
-    <script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
 </html>
