@@ -107,7 +107,7 @@
     "badge_corner_radius": 0,
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-1",
-    "brand_headline": "",
+    "brand_headline": "<strong>Tu tienda en línea<\/strong>.",
     "brand_description": "",
     "brand_image": "shopify:\/\/shop_images\/logo_retangulo_600x140_c9ef3b6d-634a-4b41-b672-00b7456c2ffc.png",
     "brand_image_width": 200,
