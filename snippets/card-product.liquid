@@ -599,6 +599,11 @@
           </div>
         </div>
       </div>
+                <!-- Start of Judge.me code -->
+          <div class='jdgm-widget jdgm-preview-badge'>
+            {{ card_product.metafields.judgeme.badge }}
+          </div>
+        <!-- End of Judge.me code -->
       <div class="card__content">
         <div class="card__information">
           <h3 class="card__heading card__heading--placeholder{% if settings.card_style == 'standard' %} h5{% endif %}">
@@ -606,11 +611,6 @@
               {{ 'onboarding.product_title' | t }}
             </a>
           </h3>
-                    <!-- Start of Judge.me code -->
-          <div class='jdgm-widget jdgm-preview-badge'>
-            {{ card_product.metafields.judgeme.badge }}
-          </div>
-        <!-- End of Judge.me code -->
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
