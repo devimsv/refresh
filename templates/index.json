@@ -15,6 +15,7 @@
         "slide-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner_1cel_webp.webp",
             "heading": "Browse our latest products",
             "heading_size": "h1",
             "subheading": "",
