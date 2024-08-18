@@ -3597,9 +3597,10 @@ details-disclosure > details {
 .jdgm-carousel-item__review-wrapper {
   border-radius: var(--product-card-corner-radius);
 }
-.jdgm-prev-badge {
+#judge_me_reviews_preview_badge_dVW6iH .jdgm-prev-badge {
   transform: scale(1.3) !important;
   padding-left: 15px !important;
   position: absolute;
   padding-bottom: 25%;
 }
+
