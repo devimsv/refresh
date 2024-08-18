@@ -46,6 +46,9 @@
     },
     "featured-collection-0": {
       "type": "featured-collection",
+      "custom_css": [
+        "._rsi-buy-now-button > span {font-size: 12px;}"
+      ],
       "settings": {
         "title": "<strong>Hogar<\/strong>",
         "heading_size": "h2",
