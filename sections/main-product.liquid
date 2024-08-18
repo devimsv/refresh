@@ -477,6 +477,12 @@
                   section_id: section.id,
                   show_pickup_availability: true
                 -%}
+                <!-- Start of Judge.me code -->
+  <div class='jdgm-widget jdgm-preview-badge'>
+    {{ card_product.metafields.judgeme.badge }}
+  </div>
+<!-- End of Judge.me code -->
+
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div class="rating-wrapper">
