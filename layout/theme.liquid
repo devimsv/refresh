@@ -70,15 +70,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           return false;
         }
         </script>
-    <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "m1akxqa8f6");
-    </script>
-    {% if template == 'product' %}
-    <!-- Script ocultar botão flutuante -->
+        <!-- Script ocultar botão flutuante -->
     <script>
       window.addEventListener('load', function() {
           // Verifique se é um dispositivo móvel
@@ -120,6 +112,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       });
     </script>
     <!-- Fim Script ocultar botão flutuante -->
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "m1akxqa8f6");
+    </script>
+    {% if template == 'product' %}
     {% endif %}
     {%- if settings.animations_reveal_on_scroll -%}
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
@@ -472,3 +472,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {%- endif -%}
   </body>
 </html>
+    <style>
+        @media (min-width: 750px) {
+      ._rsi-buy-now-button-floating {
+          width: 50% !important;
+          left: 50% !important; 
+          transform: translateX(-50%) !important;
+          right: auto !important;
+          bottom: 0 !important;
+          z-index: 100099900 !important;
+          padding: 0 !important;
+      }
+    }
+    /* Para dispositivos menores */
+    @media (max-width: 749px) {
+      ._rsi-buy-now-button-floating {
+          width: 100% !important;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 100099900;
+          padding: 0;
+      }
+    }
+    </style>
