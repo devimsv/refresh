@@ -123,12 +123,12 @@
                 {{ card_product.title | escape }}
               </a>
             </h3>
-                            <!-- Start of Judge.me code -->
+          </div>
+                          <!-- Start of Judge.me code -->
           <div class='jdgm-widget jdgm-preview-badge'>
             {{ card_product.metafields.judgeme.badge }}
           </div>
         <!-- End of Judge.me code -->
-          </div>
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
               <span
