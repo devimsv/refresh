@@ -95,10 +95,61 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "featured_collection_iyTrFG": {
+      "type": "featured-collection",
+      "custom_css": [
+        "._rsi-buy-now-button span {font-size: 12px !important;}",
+        "._rsi-button-icon-left {display: none;}"
+      ],
+      "settings": {
+        "title": "<strong>Joyas y Relojes<\/strong>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "joyas-y-relojes",
+        "products_to_show": 10,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "17239611340e74e40a": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_JknpKF": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_JknpKF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "slideshow",
-    "featured-collection-0"
+    "featured-collection-0",
+    "featured_collection_iyTrFG",
+    "17239611340e74e40a"
   ]
 }
