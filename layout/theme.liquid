@@ -2,16 +2,16 @@
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
   <script>
-window.dataLayer = window.dataLayer || [];
-{% if customer %}
-  dataLayer.push({
-    'user_id': '{{ customer.id }}'
-  });
-{% endif %}
-</script>
+    window.dataLayer = window.dataLayer || [];
+    {% if customer %}
+      dataLayer.push({
+        'user_id': '{{ customer.id }}'
+      });
+  {% endif %}
+  </script>
   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-T246BCZ4');</script>
@@ -471,4 +471,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
   </body>
+<!--Botão whatsapp-->
+<a href="https://api.whatsapp.com/send?phone=5531982115928&text=Hola%2C%20tengo%20inter%C3%A9s."><img src="https://host2b.net/download/imagem/whatsapp-icon.png" style="height:80px; position:fixed; bottom:25px; right:25px; z-index:99999;" data-selector="img"></a>
+<!--Botão whatsapp-->.
 </html>
