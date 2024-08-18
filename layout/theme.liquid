@@ -81,14 +81,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script>
     window.addEventListener('load', function() {
         // Verifique se é um dispositivo móvel
-        if (window.innerWidth <= 650) { // Defina o valor de largura conforme necessário
+        if (window.innerWidth <= 750) { // Defina o valor de largura conforme necessário
             // Variável para controlar se o usuário já rolou até certo ponto da página
             var scrolledToBottom = false;
 
             window.addEventListener('scroll', function() {
                 var button = document.getElementById('_rsi-buy-now-button-floating'); // Botão flutuante
-                var staticButton = document.getElementById('_rsi-buy-now-button'); // Botão estático
-                var footer = document.getElementById('footer__content-top'); // Footer
+                var staticButton = document.getElementById('_rsi-buy-now-button-product'); // Botão estático
+                var footer = document.getElementById('footer'); // Footer
 
                 if (!button || !staticButton || !footer) {
                     console.warn('Um dos elementos não foi encontrado: botão flutuante, botão estático ou footer.');
