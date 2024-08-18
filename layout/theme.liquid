@@ -77,47 +77,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "m1akxqa8f6");
     </script>
-    <!-- Script ocultar botão flutuante -->
+   <!-- Script ocultar botão flutuante -->
 <script>
 window.addEventListener('load', function() {
     // Verifique se é um dispositivo móvel
     if (window.innerWidth <= 650) { // Defina o valor de largura conforme necessário
-        // Variável para controlar se o usuário já rolou até certo ponto da página
-        var scrolledToBottom = false;
-
         window.addEventListener('scroll', function() {
-            var button = document.getElementById('_rsi-buy-now-button-floating'); // Botão flutuante
+            var floatingButton = document.getElementById('_rsi-buy-now-button-floating'); // Botão flutuante
             var staticButton = document.getElementById('_rsi-buy-now-button'); // Botão estático
-            var footer = document.querySelector('footer.footer'); // Rodapé
 
-            if (!button || !staticButton || !footer) {
-                console.warn('Um dos elementos não foi encontrado: botão flutuante, botão estático ou footer.');
+            if (!floatingButton || !staticButton) {
+                console.warn('Um dos elementos não foi encontrado: botão flutuante ou botão estático.');
                 return;
             }
 
             // Obtenha a posição do botão estático em relação ao topo da página
             var staticButtonPosition = staticButton.getBoundingClientRect().top + window.scrollY;
 
-            // Obtenha a posição do footer em relação ao topo da página
-            var footerPosition = footer.getBoundingClientRect().top + window.scrollY;
-
-            // Verifique se o usuário já rolou até certo ponto
-            if (!scrolledToBottom && window.scrollY > staticButtonPosition) {
-                // Usuário rolou até certo ponto, exiba o botão flutuante
-                button.style.display = 'block';
-                scrolledToBottom = true;
-            }
-
             // Obtenha a posição inferior do botão flutuante
-            var buttonBottomPosition = button.getBoundingClientRect().bottom + window.scrollY;
+            var floatingButtonBottomPosition = floatingButton.getBoundingClientRect().bottom + window.scrollY;
 
-            // Verifique se o botão está abaixo do footer
-            if (button.style.display !== 'none' && buttonBottomPosition >= footerPosition) {
-                // Botão flutuante está abaixo do footer, oculte-o
-                button.style.display = 'none';
-            } else if (button.style.display === 'none' && buttonBottomPosition < footerPosition) {
-                // Caso o botão esteja oculto e o usuário tenha rolado para cima do footer, mostre o botão novamente
-                button.style.display = 'block';
+            // Verifique se o botão flutuante ultrapassou o botão estático
+            if (floatingButtonBottomPosition >= staticButtonPosition) {
+                // Oculte o botão flutuante
+                floatingButton.style.display = 'none';
+            } else {
+                // Caso contrário, exiba o botão flutuante
+                floatingButton.style.display = 'block';
             }
         });
     }
