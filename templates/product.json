@@ -98,7 +98,7 @@
         "custom_liquid_Pw3D9V"
       ],
       "custom_css": [
-        ".jdgm-prev-badge {transform: scale(1.1); padding-left: 10px;}"
+        ".jdgm-prev-badge {transform: scale(1.2); padding-left: 30px;}"
       ],
       "settings": {
         "enable_sticky_info": true,
