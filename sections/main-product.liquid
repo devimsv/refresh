@@ -89,12 +89,6 @@
             {%- case block.type -%}
               {%- when '@app' -%}
                 {% render block %}
-                <!-- Start of Judge.me code -->
-<div class='jdgm-widget jdgm-preview-badge'>
-  {{ card_product.metafields.judgeme.badge }}
-</div>
-<!-- End of Judge.me code -->
-
               {%- when 'text' -%}
                 <p
                   class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
