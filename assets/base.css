@@ -3581,3 +3581,7 @@ details-disclosure > details {
 .highlight {
   font-weight: bold;
 }
+.jdgm-carousel-title {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
