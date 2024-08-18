@@ -287,11 +287,6 @@
               {% endif %}
             {%- endif -%}
           </div>
-                    <!-- Start of Judge.me code -->
-          <div class='jdgm-widget jdgm-preview-badge'>
-            {{ card_product.metafields.judgeme.badge }}
-          </div>
-        <!-- End of Judge.me code -->
         </div>
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
@@ -605,6 +600,11 @@
         </div>
       </div>
       <div class="card__content">
+                <!-- Start of Judge.me code -->
+          <div class='jdgm-widget jdgm-preview-badge'>
+            {{ card_product.metafields.judgeme.badge }}
+          </div>
+        <!-- End of Judge.me code -->
         <div class="card__information">
           <h3 class="card__heading card__heading--placeholder{% if settings.card_style == 'standard' %} h5{% endif %}">
             <a role="link" aria-disabled="true" class="full-unstyled-link">
