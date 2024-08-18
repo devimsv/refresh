@@ -3599,6 +3599,6 @@ details-disclosure > details {
 }
 .jdgm-prev-badge {
   transform: scale(1.3) !important;
-  padding-left: 20px !important;
+  padding-left: 15px !important;
   position: absolute;
 }
