@@ -3566,6 +3566,6 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
-.jdgm-write-rev-link {
+.jdgm-write-rev-link.jdgm-write-rev-link {
   border-radius: 20px
 }
