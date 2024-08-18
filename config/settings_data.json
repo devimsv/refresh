@@ -11,9 +11,9 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/logo_retangulo_600x140_c9ef3b6d-634a-4b41-b672-00b7456c2ffc.png",
     "logo_width": 140,
-    "type_header_font": "mono",
+    "type_header_font": "poppins_n5",
     "heading_scale": 110,
-    "type_body_font": "serif",
+    "type_body_font": "archivo_n7",
     "body_scale": 105,
     "page_width": 1200,
     "spacing_sections": 0,
