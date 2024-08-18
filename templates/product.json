@@ -76,6 +76,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_Pw3D9V": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"text-align: center; margin: 20px 0;\">\n    <a href=\"https:\/\/latienda-mix.com\" target=\"_blank\" rel=\"noopener noreferrer\">\n        <img src=\"https:\/\/latienda-mix.com\/cdn\/shop\/files\/fdba4655-97da-4ade-b0a9-2961a5211f59_450x.webp?v=1723380514\" alt=\"Imagem Promocional\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n    <\/a>\n<\/div>"
+          }
         }
       },
       "block_order": [
@@ -88,7 +94,8 @@
         "buy_buttons",
         "description",
         "complementary_kCPRPP",
-        "share"
+        "share",
+        "custom_liquid_Pw3D9V"
       ],
       "custom_css": [
         ".jdgm-prev-badge {transform: scale(1.1); padding-left: 10px;}"
