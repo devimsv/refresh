@@ -3583,6 +3583,7 @@ details-disclosure > details {
 }
 .jdgm-carousel-title {
   border-top-left-radius: 10px;
+  text-align: center !important;
   border-top-right-radius: 10px;
 }
 .jdgm-carousel-title-and-link {
