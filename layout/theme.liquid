@@ -390,9 +390,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
   });
 });
-   {%- if settings.addzap -%} {% include 'addzap' %} {%- endif -%}
-    <script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
-    </script>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -412,6 +409,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
+          {%- if settings.addzap -%} {% include 'addzap' %} {%- endif -%}
+    <script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
     </main>
 
     {% sections 'footer-group' %}
