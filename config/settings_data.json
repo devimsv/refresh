@@ -214,7 +214,7 @@
         "settings": {
           "background": "#15aaff",
           "background_gradient": "linear-gradient(88deg, rgba(17, 30, 107, 1) 12%, rgba(17, 30, 107, 1) 100%)",
-          "text": "#15aaff",
+          "text": "#f9c41d",
           "button": "#ffffff",
           "button_label": "#e32402",
           "secondary_button_label": "#ffffff",
