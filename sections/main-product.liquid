@@ -104,6 +104,12 @@
                       {{ product.title | escape }}
                     </h2>
                   </a>
+                  <!-- Start of Judge.me code -->
+  <div class='jdgm-widget jdgm-preview-badge'>
+    {{ card_product.metafields.judgeme.badge }}
+  </div>
+<!-- End of Judge.me code -->
+
                 </div>
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
