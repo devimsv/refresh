@@ -253,7 +253,15 @@
             "button": "#4770db",
             "button_label": "#eff0f5",
             "secondary_button_label": "#0e1b4d",
-            "shadow": "#0e1b4d"
+            "shadow": "#0e1b4d",
+            "addzap": true,
+      "zapicon": true,
+      "imagezap": "shopify:\/\/shop_images\/super-oferta.png",
+      "numberzap": "5551984869182",
+      "titlezap": "Fale Conosco \n<span>\nO melhor suporte é com a Luky Ofertas!\n<\/span>",
+      "colorzap": "#ff7200",
+      "chatzap": "Olá, estou aqui para te ajudar!",
+      "digizap": "Digite sua mensagem...",
           }
         },
         "scheme-2": {
