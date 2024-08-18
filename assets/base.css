@@ -3594,3 +3594,6 @@ details-disclosure > details {
 .jdgm-carousel--vertical-theme .jdgm-carousel-item__product-image {
   border-radius: var(--product-card-corner-radius);
 }
+.jdgm-carousel-item__review-wrapper {
+  border-radius: var(--product-card-corner-radius);
+}
