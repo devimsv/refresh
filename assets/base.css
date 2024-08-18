@@ -3569,6 +3569,6 @@ details-disclosure > details {
 .jdgm-write-rev-link.jdgm-write-rev-link {
   border-radius: 20px
 }
-.jdgm-histogram__bar, .jdgm-histogram__bar-content {
+.jdgm-histogram__bar {
   border-radius: 10px;
 }
