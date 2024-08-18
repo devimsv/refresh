@@ -134,6 +134,11 @@
               {%- endif %}
             </a>
           </h3>
+          <!-- Start of Judge.me code -->
+              <div class='jdgm-widget jdgm-preview-badge'>
+                {{ card_product.metafields.judgeme.badge }}
+              </div>
+          <!-- End of Judge.me code -->
           {%- if card_collection.featured_image == null and card_collection.description != blank -%}
             <p class="card__caption">
               {{- card_collection.description | strip_html | truncatewords: 12 -}}
