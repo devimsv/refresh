@@ -2,28 +2,6 @@
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
   <script>
-  const api_secret = 'ZiLWWDsbRM-1EdarxeWV_A'; // Substitua pelo seu API Secret
-const client_id = 'client_id'; // Substitua pelo ID do cliente (por exemplo, GA client ID)
-
-fetch(`https://www.google-analytics.com/mp/collect?api_secret=${api_secret}`, {
-  method: "POST",
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify({
-    client_id: client_id,
-    non_personalized_ads: true,
-    events: [{
-      name: 'earn_virtual_currency',
-      params: {}
-    }]
-  })
-})
-.then(response => response.json())
-.then(data => console.log('Evento enviado com sucesso:', data))
-.catch(error => console.error('Erro ao enviar o evento:', error));
-</script>
-  <script>
 window.dataLayer = window.dataLayer || [];
 {% if customer %}
   dataLayer.push({
