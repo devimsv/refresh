@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "¡Bienvenido a <strong>La Tienda Mix!</strong> 😍",
+            "text": "<span class=\"highlight\">¡Bienvenido a La Tienda Mix! 😍</span>",
             "link": ""
           }
         },

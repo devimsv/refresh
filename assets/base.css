@@ -3578,3 +3578,6 @@ details-disclosure > details {
 .jdgm-curt {
   color: #111E6B !important;
 }
+.highlight {
+  font-weight: bold;
+}
