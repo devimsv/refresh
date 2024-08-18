@@ -3570,5 +3570,5 @@ details-disclosure > details {
   border-radius: 20px
 }
 .jdgm-histogram__bar-content {
-  border-radius: 10px;
+  border-radius: 10px!important;
 }
