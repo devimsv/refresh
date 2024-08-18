@@ -63,7 +63,7 @@
   display: none;
 }
 .price__badge-sale {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .price--sold-out .price__badge-sold-out,
