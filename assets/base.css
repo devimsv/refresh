@@ -3575,3 +3575,6 @@ details-disclosure > details {
 .jdgm-histogram__bar-content {
   border-radius: 10px!important;
 }
+.jdgm-curt {
+  color: #111E6B;
+}
