@@ -21,6 +21,7 @@
     "spacing_grid_horizontal": 12,
     "spacing_grid_vertical": 12,
     "addzap": true,
+    "numberzap": "31982115928",
     "digizap": "teste",
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "vertical-lift",
