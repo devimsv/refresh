@@ -98,6 +98,10 @@
     },
     "featured_collection_iyTrFG": {
       "type": "featured-collection",
+      "custom_css": [
+        "._rsi-buy-now-button span {font-size: 12px !important;}",
+        "._rsi-button-icon-left {display: none;}"
+      ],
       "settings": {
         "title": "<strong>Joyas y Relojes<\/strong>",
         "heading_size": "h2",
