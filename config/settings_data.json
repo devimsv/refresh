@@ -9,6 +9,7 @@
 */
 {
   "current": {
+    "addzap": true,
     "logo": "shopify:\/\/shop_images\/logo_retangulo_600x140_c9ef3b6d-634a-4b41-b672-00b7456c2ffc.png",
     "logo_width": 140,
     "favicon": "shopify:\/\/shop_images\/fav_icon_96x96_1f1323e8-028a-4da1-a385-4dc2a928c5c9.png",
@@ -156,12 +157,6 @@
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "13951170544780599758": {
-        "type": "shopify:\/\/apps\/tapita-seo-speed\/blocks\/app-embed\/cd37ca7a-40ad-4fdc-afd3-768701482209",
-        "disabled": true,
         "settings": {
         }
       }
