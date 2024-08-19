@@ -8,6 +8,9 @@
     "theme_support_url": "https://support.shopify.com/"
   },
   {
+    "name":"Whatsapp",
+    "settings":[{"type":"header","content":"Botão WhatsApp","info":"Tema original [Dropmeta](https:\/\/Warehouse.com.br\/tema). Se comprado em sites de terceiros sem licença oficial, estará sujeito a processos judiciais."},{"type":"checkbox","id":"addzap","label":"Ativa o botão de WhatsApp no site","default":false},{"type":"textarea","id":"numberzap","label":"Número do WhatsApp","info":"O número que vai receber a mensagem deve ser colocado com 55 - código do país - seguido do DDD do estado e depois o número com o prefixo incluso. Ex: 5551888887777"},{"type":"textarea","id":"titlezap","label":"Título e Subtítulo do Box","info":"Personalize a escrita da caixa de mensagem"},{"type":"color","id":"colorzap","label":"Selecione a cor do Box","info":"Troque a cor de fundo","default":"#25D366"},{"type":"textarea","id":"chatzap","label":"Texto da mensagem","info":"Personalize a escrita no chat"},{"type":"textarea","id":"digizap","label":"Texto onde vai escrever","info":"O texto que mostra para o cliente"},{"type":"header","content":"Equipe Dropmeta"},{"type":"paragraph","content":"Código fornecido por [Dropmeta](https:\/\/Warehouse.com.br\/) Obrigado por nos ajudar!"}]},
+  {
     "name": "t:settings_schema.logo.name",
     "settings": [
       {
