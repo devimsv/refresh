@@ -20,8 +20,14 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 12,
     "spacing_grid_vertical": 12,
-    "animations_reveal_on_scroll": false,
-    "animations_hover_elements": "none",
+    "addzap": true,
+    "numberzap": "573009291275",
+    "titlezap": "Háblanos por WhatsApp\n<span>\n¡El mejor soporte es con la tienda <strong style=\"font-weight: bold;\">Mix!<strong>\n<\/strong><\/strong><\/span>",
+    "colorzap": "#25d366",
+    "chatzap": "Hola, envíe su mensaje, nuestro equipo responderá lo más pronto posible, también puede contactarnos <a style=\"color: #FFC221; font-weight: bold; href=\" https:=\"\">haciendo clic aquí.<\/a>",
+    "digizap": "Escribe tu mensaje...",
+    "animations_reveal_on_scroll": true,
+    "animations_hover_elements": "vertical-lift",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 40,
@@ -147,20 +153,14 @@
 
     ],
     "blocks": {
-      "13669795325273674392": {
-        "type": "shopify:\/\/apps\/releasit-cod-form\/blocks\/app-embed\/72faf214-4174-4fec-886b-0d0e8d3af9a2",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       },
-      "13951170544780599758": {
-        "type": "shopify:\/\/apps\/tapita-seo-speed\/blocks\/app-embed\/cd37ca7a-40ad-4fdc-afd3-768701482209",
+      "13669795325273674392": {
+        "type": "shopify:\/\/apps\/releasit-cod-form\/blocks\/app-embed\/72faf214-4174-4fec-886b-0d0e8d3af9a2",
         "disabled": true,
         "settings": {
         }
