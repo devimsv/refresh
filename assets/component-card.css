@@ -273,15 +273,18 @@
 .card__badge {
   align-self: flex-end;
   grid-row-start: 3;
+  border-radius: 20px;
   justify-self: flex-start;
 }
 
 .card__badge.top {
+  border-radius: 20px;
   align-self: flex-start;
   grid-row-start: 1;
 }
 
 .card__badge.right {
+  border-radius: 20px;
   justify-self: flex-end;
 }
 
