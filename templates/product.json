@@ -73,7 +73,7 @@
         "custom_liquid_Pw3D9V": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"text-align: center; margin: 20px 0;\">\n    <a href=\"https:\/\/latienda-mix.com\" target=\"_blank\" rel=\"noopener noreferrer\">\n        <img src=\"https:\/\/latienda-mix.com\/cdn\/shop\/files\/fdba4655-97da-4ade-b0a9-2961a5211f59_450x.webp?v=1723380514\" alt=\"Imagem Promocional\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n    <\/a>\n<\/div>"
+            "custom_liquid": "<div style=\"text-align: center; margin: 20px 0;\"><img src=\"https:\/\/latienda-mix.com\/cdn\/shop\/files\/fdba4655-97da-4ade-b0a9-2961a5211f59_450x.webp?v=1723380514\" alt=\"Imagem Promocional\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n<\/div>"
           }
         }
       },
