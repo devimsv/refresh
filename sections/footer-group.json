@@ -61,7 +61,7 @@
         "#shopify-block-judge_me_reviews_all_reviews_text_UpKHGA {color: #15aaff; background: #f2f3f7;}"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     },
     "footer": {
