@@ -17,7 +17,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Suscríbete a nuestros correos",
+            "heading": "<strong>Suscríbete a nuestros correos<\/strong>",
             "heading_size": "h2"
           }
         },
