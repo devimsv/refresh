@@ -64,6 +64,46 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "collection_list_ViwRtU": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_aYpg7q": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "joyas-y-relojes"
+          }
+        },
+        "featured_collection_h6rLWX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "salud-y-belleza"
+          }
+        },
+        "featured_collection_gbBD63": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hogar-e-jardin"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_aYpg7q",
+        "featured_collection_h6rLWX",
+        "featured_collection_gbBD63"
+      ],
+      "settings": {
+        "title": "Colecciones",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured-collection-0": {
       "type": "featured-collection",
       "custom_css": [
@@ -144,53 +184,13 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "collection_list_ViwRtU": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_aYpg7q": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "joyas-y-relojes"
-          }
-        },
-        "featured_collection_h6rLWX": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "salud-y-belleza"
-          }
-        },
-        "featured_collection_gbBD63": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hogar-e-jardin"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_aYpg7q",
-        "featured_collection_h6rLWX",
-        "featured_collection_gbBD63"
-      ],
-      "settings": {
-        "title": "Colecciones",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "slideshow",
+    "collection_list_ViwRtU",
     "featured-collection-0",
     "featured_collection_iyTrFG",
-    "17239611340e74e40a",
-    "collection_list_ViwRtU"
+    "17239611340e74e40a"
   ]
 }
