@@ -386,13 +386,13 @@
 }
 {% endschema %}
 <script>
-var SlideshowSection = /*#__PURE__*/function () {
-    function SlideshowSection(element) {
-      _classCallCheck(this, SlideshowSection);
+var slideshowcopySection = /*#__PURE__*/function () {
+    function slideshowcopySection(element) {
+      _classCallCheck(this, slideshowcopySection);
 
       this.element = element;
       this.options = JSON.parse(this.element.getAttribute('data-section-settings'));
-      this.flickityInstance = new flickityFade(element.querySelector('.slideshow'), {
+      this.flickityInstance = new flickityFade(element.querySelector('.slideshowcopycopy'), {
         pageDots: this.options['pageDots'],
         prevNextButtons: this.options['prevNextButtons'],
         wrapAround: true,
@@ -405,7 +405,7 @@ var SlideshowSection = /*#__PURE__*/function () {
       });
     }
 
-    _createClass(SlideshowSection, [{
+    _createClass(slideshowcopySection, [{
       key: "onUnload",
       value: function onUnload() {
         this.flickityInstance.destroy();
@@ -427,6 +427,6 @@ var SlideshowSection = /*#__PURE__*/function () {
       }
     }]);
 
-    return SlideshowSection;
+    return slideshowcopySection;
   }();
 </script>
