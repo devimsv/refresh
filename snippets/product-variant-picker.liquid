@@ -32,7 +32,7 @@
           <legend class="form__label">
             {{ option.name }}:
             <span data-selected-value>
-              {{- option.selected_value -}}
+              {{- option.selected_value | capitalize -}}
             </span>
           </legend>
           {% render 'product-variant-options',
@@ -44,7 +44,7 @@
         </fieldset>
       {%- elsif picker_type == 'button' -%}
         <fieldset class="js product-form__input product-form__input--pill">
-          <legend class="form__label">{{ option.name }}</legend>
+          <legend class="form__label">{{ option.name | capitalize }}</legend>
           {% render 'product-variant-options',
             product: product,
             option: option,
@@ -69,7 +69,7 @@
             <select
               id="Option-{{ section.id }}-{{ forloop.index0 }}"
               class="select__select"
-              name="options[{{ option.name | escape }}]"
+              name="options[{{ option.name | escape | capitalize }}]"
               form="{{ product_form_id }}"
             >
               {% render 'product-variant-options',
