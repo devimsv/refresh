@@ -272,7 +272,7 @@
                       >
                       <button class="quantity__button" name="plus" type="button">
                         <span class="visually-hidden">
-                          {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
+                          {{- 'products.product.quantity.increase' | t: product: product.title | capitalize | escape -}}
                         </span>
                         {% render 'icon-plus' %}
                       </button>
