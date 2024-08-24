@@ -12073,9 +12073,9 @@
       this.options = JSON.parse(this.element.getAttribute('data-section-settings'));
 
       if (this.options['useRecommendations']) {
-        this._loadRecommendations().then(this._createSlideshow.bind(this));
+        this._loadRecommendations().then(this._createSlideshowcopy.bind(this));
       } else {
-        this._createSlideshow();
+        this._createSlideshowcopy();
       }
 
       this.productItemColorSwatch = new ProductItemColorSwatch(this.element);
@@ -12155,8 +12155,8 @@
         });
       }
     }, {
-      key: "_createSlideshow",
-      value: function _createSlideshow() {
+      key: "_createSlideshowcopy",
+      value: function _createSlideshowcopy() {
         if (!this.options['stackable']) {
           this.flickityInstance = new js(this.element.querySelector('.product-list'), {
             watchCSS: true,
@@ -12620,13 +12620,13 @@
     return SectionContainer;
   }();
 
-  var SlideshowSection = /*#__PURE__*/function () {
-    function SlideshowSection(element) {
-      _classCallCheck(this, SlideshowSection);
+  var SlideshowcopySection = /*#__PURE__*/function () {
+    function SlideshowcopySection(element) {
+      _classCallCheck(this, SlideshowcopySection);
 
       this.element = element;
       this.options = JSON.parse(this.element.getAttribute('data-section-settings'));
-      this.flickityInstance = new flickityFade(element.querySelector('.slideshow'), {
+      this.flickityInstance = new flickityFade(element.querySelector('.slideshowcopy'), {
         pageDots: this.options['pageDots'],
         prevNextButtons: this.options['prevNextButtons'],
         wrapAround: true,
@@ -12639,7 +12639,7 @@
       });
     }
 
-    _createClass(SlideshowSection, [{
+    _createClass(SlideshowcopySection, [{
       key: "onUnload",
       value: function onUnload() {
         this.flickityInstance.destroy();
@@ -12661,7 +12661,7 @@
       }
     }]);
 
-    return SlideshowSection;
+    return SlideshowcopySection;
   }();
 
   var TextWithIconsSection = /*#__PURE__*/function () {
@@ -15487,29 +15487,7 @@
     new PopoverManager(); // Then, we instantiate specific sections that may appear in all pages, and then only the template specific sections
 
     var sections = new SectionContainer();
-    sections.register('account', AccountSection);
-    sections.register('announcement-bar', AnnouncementBarSection);
-    sections.register('blog', BlogSection);
-    sections.register('blog-sidebar', BlogSidebarSection);
-    sections.register('blog-post', BlogPostSection);
-    sections.register('cart', CartSection);
-    sections.register('collection-list', CollectionListSection);
-    sections.register('collection', CollectionSection);
-    sections.register('featured-collection', FeaturedCollectionSection);
-    sections.register('footer', FooterSection);
-    sections.register('gift-card', GiftCardSection);
-    sections.register('header', HeaderSection);
-    sections.register('login', LoginSection);
-    sections.register('map', MapSection);
-    sections.register('minimal-header', MinimalHeaderSection);
-    sections.register('popups', PopupsSection);
-    sections.register('product-recommendations', ProductRecommendationsSection);
-    sections.register('product', ProductSection);
-    sections.register('quick-links', QuickLinksSection);
-    sections.register('recently-viewed-products', RecentlyViewedProductsSection);
-    sections.register('slideshow', SlideshowSection);
-    sections.register('text-with-icons', TextWithIconsSection);
-    sections.register('video', VideoSection);
+    sections.register('slideshow', SlideshowcopySection);
     /**
      * ----------------------------------------------------------------------------
      * RTE
