@@ -102,7 +102,7 @@
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "show",
-        "hide_variants": true,
+        "hide_variants": false,
         "enable_video_looping": true,
         "padding_top": 40,
         "padding_bottom": 40
