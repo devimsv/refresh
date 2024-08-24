@@ -92,7 +92,7 @@
         "featured_collection_gbBD63"
       ],
       "settings": {
-        "title": "<strong>Colecciones<\/strong>",
+        "title": "Colecciones",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 4,
@@ -111,7 +111,7 @@
         "._rsi-button-icon-left {display: none;}"
       ],
       "settings": {
-        "title": "<strong>Hogar<\/strong>",
+        "title": "Hogar",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -143,7 +143,7 @@
         "._rsi-button-icon-left {display: none;}"
       ],
       "settings": {
-        "title": "<strong>Joyas y Relojes<\/strong>",
+        "title": "Joyas y Relojes",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
