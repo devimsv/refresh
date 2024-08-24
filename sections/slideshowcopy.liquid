@@ -385,3 +385,48 @@
   ]
 }
 {% endschema %}
+<script>
+var SlideshowSection = /*#__PURE__*/function () {
+    function SlideshowSection(element) {
+      _classCallCheck(this, SlideshowSection);
+
+      this.element = element;
+      this.options = JSON.parse(this.element.getAttribute('data-section-settings'));
+      this.flickityInstance = new flickityFade(element.querySelector('.slideshow'), {
+        pageDots: this.options['pageDots'],
+        prevNextButtons: this.options['prevNextButtons'],
+        wrapAround: true,
+        dragThreshold: 12,
+        draggable: '>1',
+        fade: this.options['transitionEffect'] === 'fade',
+        setGallerySize: this.options['setGallerySize'],
+        adaptiveHeight: this.options['adaptiveHeight'],
+        autoPlay: this.options['autoPlay'] ? this.options['cycleSpeed'] : false
+      });
+    }
+
+    _createClass(SlideshowSection, [{
+      key: "onUnload",
+      value: function onUnload() {
+        this.flickityInstance.destroy();
+      }
+    }, {
+      key: "onBlockSelect",
+      value: function onBlockSelect(event) {
+        if (this.flickityInstance.isActive) {
+          this.flickityInstance.selectCell(parseInt(event.target.getAttribute('data-block-index')), false, event.detail.load);
+          this.flickityInstance.pausePlayer();
+        }
+      }
+    }, {
+      key: "onBlockDeselect",
+      value: function onBlockDeselect() {
+        if (this.flickityInstance.isActive) {
+          this.flickityInstance.unpausePlayer();
+        }
+      }
+    }]);
+
+    return SlideshowSection;
+  }();
+</script>
