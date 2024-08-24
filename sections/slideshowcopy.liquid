@@ -372,7 +372,7 @@
   "presets": [
     {
       "category": "Image",
-      "name": "Slideshow",
+      "name": "Slideshowcopy",
       "blocks": [
         {
           "type": "image"
@@ -620,7 +620,7 @@ var slideshowcopySection = /*#__PURE__*/function () {
 
       this.element = element;
       this.options = JSON.parse(this.element.getAttribute('data-section-settings'));
-      this.flickityInstance = new flickityFade(element.querySelector('.slideshowcopycopy'), {
+      this.flickityInstance = new flickityFade(element.querySelector('.slideshowcopy'), {
         pageDots: this.options['pageDots'],
         prevNextButtons: this.options['prevNextButtons'],
         wrapAround: true,
