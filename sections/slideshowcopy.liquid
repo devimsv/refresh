@@ -385,6 +385,234 @@
   ]
 }
 {% endschema %}
+<style>
+.slideshow {
+  height: 400px;
+  overflow: hidden;
+}
+
+.slideshow--small {
+  height: 350px;
+}
+
+.slideshow--large {
+  height: 450px;
+}
+
+.slideshow__slide {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow__slide-inner {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow:not(.flickity-enabled) .slideshow__slide:not(.is-selected) {
+  display: none;
+}
+
+.slideshow__placeholder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.slideshow__image-placeholder {
+  height: 100%;
+  fill: dimgrey;
+  background: darkgrey;
+}
+
+.slideshow__title {
+  margin-bottom: 7px;
+  color: inherit;
+}
+
+.slideshow__content-wrapper {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.slideshow__content {
+  max-width: 650px;
+  margin: 0 auto 22px auto;
+}
+
+.slideshow .flickity-page-dots {
+  bottom: 30px;
+}
+
+.slideshow .flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  margin: 0 8px;
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  transform: none !important;
+  transition: background 0.25s ease-in-out;
+}
+
+.slideshow .flickity-page-dots .dot::before {
+  top: -10px;
+  right: -10px;
+  left: -10px;
+  bottom: -10px;
+}
+
+.slideshow .flickity-page-dots .dot.is-selected {
+  background: transparent;
+}
+
+/** Overlay variation **/
+.slideshow__slide--overlay::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  z-index: 1;
+}
+
+/** Preserve ratio variation
+
+ IMPLEMENTATION NOTE: I am using two different ways to center the content. If the slideshow is a fixed height, the theme uses a flexbox
+                      based approach, while if the slideshow is not fixed (ie. respecting the image aspect ratio), I use a transform based
+                      approach. I could have keep it simpler and use the transform based everywhere (which would have removed a lot of code),
+                      but the transform based is proved to reduce sometimes the quality of the text and make it a bit blurry. This is why
+                      there is another, more optimized way to position when it is possible
+ **/
+.slideshow--preserve-ratio {
+  height: auto !important;
+}
+
+.slideshow--preserve-ratio .slideshow__slide {
+  height: auto;
+}
+
+.slideshow--preserve-ratio .slideshow__slide-inner {
+  position: relative;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.slideshow--preserve-ratio .slideshow__content-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 641px) {
+  .slideshow:not(.slideshow--edge2edge) {
+    margin: var(--desktop-container-gutter) 0;
+  }
+
+  .slideshow:not(.slideshow--edge2edge) .flickity-viewport {
+    border-radius: 10px;
+  }
+
+  .slideshow__image-placeholder {
+    height: auto;
+    width: 100%;
+  }
+
+  /* Positioning for fixed height carousel */
+  .slideshow__slide-inner--top-left,
+  .slideshow__slide-inner--top-center,
+  .slideshow__slide-inner--top-right {
+    justify-content: flex-start;
+  }
+
+  .slideshow__slide-inner--bottom-left,
+  .slideshow__slide-inner--bottom-center,
+  .slideshow__slide-inner--bottom-right {
+    justify-content: flex-end;
+  }
+
+  .slideshow__slide-inner--bottom-left .slideshow__content-wrapper,
+  .slideshow__slide-inner--bottom-center .slideshow__content-wrapper,
+  .slideshow__slide-inner--bottom-right .slideshow__content-wrapper {
+    padding-bottom: 75px;
+    padding-top: 25px;
+  }
+
+  .slideshow__slide-inner--top-left,
+  .slideshow__slide-inner--middle-left,
+  .slideshow__slide-inner--bottom-left {
+    text-align: left;
+  }
+
+  .slideshow__slide-inner--top-left .slideshow__content,
+  .slideshow__slide-inner--middle-left .slideshow__content,
+  .slideshow__slide-inner--bottom-left .slideshow__content {
+    margin-left: 0;
+  }
+
+  .slideshow__slide-inner--top-right,
+  .slideshow__slide-inner--middle-right,
+  .slideshow__slide-inner--bottom-right {
+    text-align: right;
+  }
+  .slideshow__slide-inner--top-right .slideshow__content,
+  .slideshow__slide-inner--middle-right .slideshow__content,
+  .slideshow__slide-inner--bottom-right .slideshow__content {
+    margin-right: 0;
+  }
+
+  /* Positioning for non-fixed height carousel */
+  .slideshow--preserve-ratio .slideshow__slide-inner--top-left .slideshow__content-wrapper,
+  .slideshow--preserve-ratio .slideshow__slide-inner--top-center .slideshow__content-wrapper,
+  .slideshow--preserve-ratio .slideshow__slide-inner--top-right .slideshow__content-wrapper {
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  .slideshow--preserve-ratio .slideshow__slide-inner--bottom-left .slideshow__content-wrapper,
+  .slideshow--preserve-ratio .slideshow__slide-inner--bottom-center .slideshow__content-wrapper,
+  .slideshow--preserve-ratio .slideshow__slide-inner--bottom-right .slideshow__content-wrapper {
+    top: auto;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .slideshow {
+    height: 430px;
+  }
+
+  .slideshow--small {
+    height: 380px;
+  }
+
+  .slideshow--large {
+    height: 520px;
+  }
+}
+</style>
 <script>
 var slideshowcopySection = /*#__PURE__*/function () {
     function slideshowcopySection(element) {
