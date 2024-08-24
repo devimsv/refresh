@@ -70,6 +70,7 @@ variant-selects {
   letter-spacing: 0.1rem;
   line-height: 1;
   text-align: center;
+  text-transform: capitalize;
   transition: border var(--duration-short) ease;
   cursor: pointer;
   position: relative;
