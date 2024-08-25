@@ -46,7 +46,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".menu-drawer__close-button {background-color: #F6F5F3;}"
+
       ],
       "settings": {
         "logo_position": "top-center",
