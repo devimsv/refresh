@@ -84,19 +84,12 @@
           "settings": {
             "collection": "hogar-e-jardin"
           }
-        },
-        "featured_collection_4BKHdx": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "featured_collection_aYpg7q",
         "featured_collection_h6rLWX",
-        "featured_collection_gbBD63",
-        "featured_collection_4BKHdx"
+        "featured_collection_gbBD63"
       ],
       "settings": {
         "title": "Colecciones",
