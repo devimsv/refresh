@@ -75,10 +75,18 @@
           "settings": {
             "show_social": false
           }
+        },
+        "link_list_eGQHMG": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Enlaces rápidos",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
-        "brand_information_E7gdPX"
+        "brand_information_E7gdPX",
+        "link_list_eGQHMG"
       ],
       "custom_css": [
 
