@@ -124,7 +124,8 @@
         ".jdgm-rev {background: #f9fafb; padding: 10px; margin-top: 5px; border-radius: 20px;}",
         ".jdgm-row-actions {align-items: center;}",
         ".jdgm-gallery-title {text-align: center;}",
-        ".jdgm-rev__icon {border-radius: 20px;}"
+        ".jdgm-rev__icon {border-radius: 20px;}",
+        ".jdgm-rev__author {font-weight: bold;}"
       ],
       "settings": {
         "include_margins": true
