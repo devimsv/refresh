@@ -60,7 +60,7 @@
       "custom_css": [
         "#shopify-block-judge_me_reviews_all_reviews_text_UpKHGA {background: #f6f5f3;}",
         ".jdgm-all-reviews-text__text {color: #111e6b;}",
-        ".jdgm-star .jdgm--on {color: #f9c41d !important;}"
+        ".jdgm-star {color: #f9c41d !important;}"
       ],
       "settings": {
         "include_margins": false
