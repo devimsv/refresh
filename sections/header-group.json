@@ -45,6 +45,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".menu-drawer__close-button {background-color: red;}"
+      ],
       "settings": {
         "logo_position": "top-center",
         "menu": "main-menu",
