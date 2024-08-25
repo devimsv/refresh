@@ -60,7 +60,7 @@
       "custom_css": [
         "#shopify-block-judge_me_reviews_all_reviews_text_UpKHGA {background: #f6f5f3;}",
         ".jdgm-all-reviews-text__text {color: #111e6b;}",
-        ".jdgm-all-reviews-rating__score {color: #111E6B;}",
+        ".jdgm-all-reviews-rating__score {color: #111e6b;}",
         ".jdgm-star {color: #f9c41d !important;}"
       ],
       "settings": {
@@ -81,7 +81,7 @@
         "brand_information_E7gdPX"
       ],
       "custom_css": [
-        ".shopify-block-judge_me_reviews_all_reviews_text_UpKHGA {padding: 20px; background-color: #f9f9f9;}"
+
       ],
       "settings": {
         "color_scheme": "scheme-b098ceee-d0be-4bcb-b780-c22fce318d7f",
