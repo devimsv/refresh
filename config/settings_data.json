@@ -436,5 +436,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".page-width {background: transparent;}"
+    ]
   }
 }
