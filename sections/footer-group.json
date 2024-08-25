@@ -58,7 +58,7 @@
         "judge_me_reviews_all_reviews_text_UpKHGA"
       ],
       "custom_css": [
-        "#shopify-block-judge_me_reviews_all_reviews_text_UpKHGA {color: #111e6b; background: #EFF0F5;}",
+        "#shopify-block-judge_me_reviews_all_reviews_text_UpKHGA {color: #111e6b; background: #F6F5F3;}",
         ".jdgm-all-reviews-text__text {color: #111e6b;}"
       ],
       "settings": {
