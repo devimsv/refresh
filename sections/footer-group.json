@@ -70,13 +70,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "link_list_eGQHMG": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Enlaces rápidos",
-            "menu": "footer"
-          }
-        },
         "brand_information_E7gdPX": {
           "type": "brand_information",
           "settings": {
@@ -85,7 +78,6 @@
         }
       },
       "block_order": [
-        "link_list_eGQHMG",
         "brand_information_E7gdPX"
       ],
       "custom_css": [
