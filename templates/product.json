@@ -125,7 +125,8 @@
         ".jdgm-row-actions {align-items: center;}",
         ".jdgm-gallery-title {text-align: center;}",
         ".jdgm-rev__icon {border-radius: 20px;}",
-        ".jdgm-rev__author {font-weight: bold;}"
+        ".jdgm-rev__author {font-weight: bold;}",
+        ".jdgm-gallery__thumbnail-wrapper {background: #f6f5f3;}"
       ],
       "settings": {
         "include_margins": true
