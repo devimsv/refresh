@@ -39,7 +39,7 @@
         "email-form"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 28,
         "padding_bottom": 20
@@ -82,7 +82,7 @@
         ".shopify-block-judge_me_reviews_all_reviews_text_UpKHGA {padding: 20px; background-color: #f9f9f9;}"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-2",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
