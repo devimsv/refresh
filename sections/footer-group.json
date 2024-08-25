@@ -58,10 +58,10 @@
         "judge_me_reviews_all_reviews_text_UpKHGA"
       ],
       "custom_css": [
-        "#shopify-block-judge_me_reviews_all_reviews_text_UpKHGA {color: #111e6b; background: #f6f5f3;}",
+        "#shopify-block-judge_me_reviews_all_reviews_text_UpKHGA {background: #f6f5f3;}",
         ".jdgm-all-reviews-text__text {color: #111e6b;}",
         ".jdgm-all-reviews-rating {color: #111e6b;}",
-        ".jdgm-all-reviews-rating__stars {color: #f9c41d !important;}"
+        ".jdgm-all-reviews-rating__stars {color: #111E6B !important;}"
       ],
       "settings": {
         "include_margins": false
