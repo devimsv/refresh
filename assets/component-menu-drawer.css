@@ -169,7 +169,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__utility-links {
   padding: 0;
-  background-color: rgba(var(--color-background), 0.08);
+  background-color: #f6f5f3;
   position: relative;
 }
 
