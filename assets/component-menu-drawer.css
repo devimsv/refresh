@@ -114,7 +114,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__menu-item:hover,
 .menu-drawer__close-button:hover {
   color: rgb(var(--gradient-background));
-  background-color: rgba(var(--gradient-background), 0.04);
+  background-color: rgba(var(--gradient-background));
 }
 
 .menu-drawer__menu-item--active:hover {
