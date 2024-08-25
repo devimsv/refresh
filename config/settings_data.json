@@ -439,7 +439,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".page-width {background: #FFFFFF;}"
+      ".section {background: #ffffff;}"
     ]
   }
 }
