@@ -121,7 +121,7 @@
         "judge_me_reviews_review_widget_Ta6jtG"
       ],
       "custom_css": [
-        ".jdgm-rev {background: #f9fafb; padding: 5px; margin-top: 5px; border-radius: 20px;}"
+        ".jdgm-rev {background: #f9fafb; padding: 10px; margin-top: 5px; border-radius: 20px;}"
       ],
       "settings": {
         "include_margins": true
