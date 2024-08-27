@@ -29,29 +29,10 @@
             "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_48y7Wd": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BANNER_2_PC.webp",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_kTzUQ8",
-        "slide_48y7Wd"
+        "slide_kTzUQ8"
       ],
       "custom_css": [
         "@media only screen and (max-width: 767px) {slideshow-component {display: none; }}"
