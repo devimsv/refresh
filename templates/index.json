@@ -19,14 +19,14 @@
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "",
+            "button_label": "COMPRAR AHORA",
             "link": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
