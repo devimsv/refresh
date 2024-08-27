@@ -96,7 +96,7 @@
         "@media only screen and (min-width: 767px) {slideshow-component {display: none; }}"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
