@@ -9,6 +9,61 @@
 */
 {
   "sections": {
+    "slideshow_RKE3gc": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_kTzUQ8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_hogar_wpg.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_48y7Wd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BANNER_2_PC.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_kTzUQ8",
+        "slide_48y7Wd"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": false,
+        "accessibility_info": ""
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -190,6 +245,7 @@
     }
   },
   "order": [
+    "slideshow_RKE3gc",
     "slideshow",
     "collection_list_ViwRtU",
     "featured-collection-0",
