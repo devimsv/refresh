@@ -53,6 +53,9 @@
         "slide_kTzUQ8",
         "slide_48y7Wd"
       ],
+      "custom_css": [
+        ".slider-buttons {background: red;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
