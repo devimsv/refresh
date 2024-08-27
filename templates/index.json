@@ -111,6 +111,9 @@
         "slide-0",
         "slide_3DFYhi"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 749px) {.banner__content {display: none !important; }}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
