@@ -54,7 +54,7 @@
         "slide_48y7Wd"
       ],
       "custom_css": [
-
+        ".banner__content {background: red;}"
       ],
       "settings": {
         "layout": "full_bleed",
