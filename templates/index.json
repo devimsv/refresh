@@ -54,7 +54,7 @@
         "slide_48y7Wd"
       ],
       "custom_css": [
-        "@media screen and (min-width: 749px){.banner__content {display: none !important;}}"
+        "@media screen and (max-width: 749px) {.banner__content {display: none !important; }}"
       ],
       "settings": {
         "layout": "full_bleed",
