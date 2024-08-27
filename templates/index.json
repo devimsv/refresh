@@ -15,7 +15,7 @@
         "slide_kTzUQ8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_hogar_wpg.webp",
+            "image": "shopify:\/\/shop_images\/banner_hogar_pc.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -39,7 +39,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "adapt_image",
         "slider_visual": "counter",
         "auto_rotate": true,
         "change_slides_speed": 5,
