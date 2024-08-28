@@ -16,6 +16,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-T246BCZ4');</script>
 <!-- End Google Tag Manager -->
+<!-- Event snippet for ReleasitCodFormPurchase conversion page
+  In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+          <script>
+          function gtag_report_conversion(url) {
+            var callback = function () {
+              if (typeof(url) != 'undefined') {
+                window.location = url;
+              }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-491071594/jnt4CKyc4cYZEOrQlOoB',
+                'value': 1.0,
+                'currency': 'COP',
+                'transaction_id': '',
+                'event_callback': callback
+            });
+            return false;
+          }
+          </script>
  <script>/* start spd config */window._spt_delay_keywords=["/gtag/js,gtag,/checkouts,/tiktok-track.js,/hotjar-,/smile-,/adoric.js,/wpm/,fbq"];/* end spd config */</script> 
 
     <meta charset="utf-8">
@@ -51,25 +70,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
-      <!-- Event snippet for ReleasitCodFormPurchase conversion page
-        In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-        <script>
-        function gtag_report_conversion(url) {
-          var callback = function () {
-            if (typeof(url) != 'undefined') {
-              window.location = url;
-            }
-          };
-          gtag('event', 'conversion', {
-              'send_to': 'AW-491071594/jnt4CKyc4cYZEOrQlOoB',
-              'value': 1.0,
-              'currency': 'COP',
-              'transaction_id': '',
-              'event_callback': callback
-          });
-          return false;
-        }
-        </script>
         <!-- Script ocultar botão flutuante -->
     <script>
       window.addEventListener('load', function() {
