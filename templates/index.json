@@ -146,19 +146,19 @@
         "padding_bottom": 36
       }
     },
-    "featured-collection-0": {
+    "featured_collection_XfNaz8": {
       "type": "featured-collection",
       "custom_css": [
         "._rsi-buy-now-button span {font-size: 12px !important;}",
         "._rsi-button-icon-left {display: none;}"
       ],
       "settings": {
-        "title": "Salud y Belleza",
+        "title": "Hogar",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "uppercase",
-        "collection": "salud-y-belleza",
+        "collection": "hogar-e-jardin",
         "products_to_show": 10,
         "columns_desktop": 4,
         "full_width": true,
@@ -178,15 +178,19 @@
         "padding_bottom": 20
       }
     },
-    "featured_collection_XfNaz8": {
+    "featured-collection-0": {
       "type": "featured-collection",
+      "custom_css": [
+        "._rsi-buy-now-button span {font-size: 12px !important;}",
+        "._rsi-button-icon-left {display: none;}"
+      ],
       "settings": {
-        "title": "Hogar",
+        "title": "Salud y Belleza",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "uppercase",
-        "collection": "hogar-e-jardin",
+        "collection": "salud-y-belleza",
         "products_to_show": 10,
         "columns_desktop": 4,
         "full_width": true,
@@ -333,8 +337,8 @@
     "slideshow_RKE3gc",
     "slideshow",
     "collection_list_ViwRtU",
-    "featured-collection-0",
     "featured_collection_XfNaz8",
+    "featured-collection-0",
     "featured_collection_rAa6K9",
     "featured_collection_iyTrFG",
     "17239611340e74e40a",
