@@ -217,12 +217,12 @@
         "._rsi-button-icon-left {display: none;}"
       ],
       "settings": {
-        "title": "Joyas y Relojes",
+        "title": "Relojes",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "uppercase",
-        "collection": "joyas-y-relojes",
+        "collection": "relojes",
         "products_to_show": 10,
         "columns_desktop": 4,
         "full_width": true,
