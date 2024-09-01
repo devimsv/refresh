@@ -317,7 +317,7 @@
         "text_mtNpYC"
       ],
       "custom_css": [
-        "section {background: #fff;}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/faxada_webp_100kb.webp",
@@ -327,8 +327,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
         "padding_top": 36,
