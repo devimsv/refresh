@@ -178,6 +178,38 @@
         "padding_bottom": 20
       }
     },
+    "featured_collection_rAa6K9": {
+      "type": "featured-collection",
+      "custom_css": [
+        "._rsi-buy-now-button span {font-size: 12px !important;}",
+        "._rsi-button-icon-left {display: none;}"
+      ],
+      "settings": {
+        "title": "Joyas",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "joyas",
+        "products_to_show": 10,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "featured_collection_iyTrFG": {
       "type": "featured-collection",
       "custom_css": [
@@ -274,6 +306,7 @@
     "slideshow",
     "collection_list_ViwRtU",
     "featured-collection-0",
+    "featured_collection_rAa6K9",
     "featured_collection_iyTrFG",
     "17239611340e74e40a",
     "image_with_text_EQPEkj"
