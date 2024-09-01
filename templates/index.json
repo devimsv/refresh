@@ -316,6 +316,9 @@
         "heading_J9aEAi",
         "text_mtNpYC"
       ],
+      "custom_css": [
+        "section {background: #fff;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/faxada_webp_100kb.webp",
         "height": "adapt",
