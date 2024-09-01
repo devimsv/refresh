@@ -51,7 +51,7 @@
       "settings": {
         "logo_position": "top-center",
         "menu": "main-menu",
-        "menu_type_desktop": "drawer",
+        "menu_type_desktop": "dropdown",
         "sticky_header_type": "reduce-logo-size",
         "show_line_separator": true,
         "color_scheme": "scheme-b098ceee-d0be-4bcb-b780-c22fce318d7f",
