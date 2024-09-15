@@ -62,7 +62,9 @@
 .price--on-sale .price__availability {
   display: none;
 }
-
+.price__badge-sale {
+  border-radius: var(--badge-corner-radius);
+}
 .price--sold-out .price__badge-sold-out,
 .price--on-sale .price__badge-sale,
 .volume-pricing--sale-badge .price__badge-sale {
